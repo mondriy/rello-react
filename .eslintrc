@@ -8,10 +8,12 @@
   "rules": {
     "no-console": "warn",
     "quotes": [2, "single", "avoid-escape"],
+    "jsx-quotes": [2, "prefer-single"],
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true
+        "singleQuote": true,
+        "jsxSingleQuote": true
       }
     ]
   }
