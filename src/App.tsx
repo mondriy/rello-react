@@ -1,7 +1,8 @@
-import "assets/styles/Rules.scss";
+import { Dashboard } from 'pages/dashboard';
+import 'assets/styles/main.scss';
 
 function App() {
-  return <div className="App"></div>;
+  return <Dashboard />;
 }
 
 export default App;

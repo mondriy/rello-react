@@ -1,3 +1,18 @@
-* {
-  box-sizing: border-box;
+:root {
+  --font-family:  'Mulish', sans-serif;
+  --shadow: 0px 6px 14px -6px rgba(128, 128, 128, 0.15);
+}
+
+:root, [data-theme="light"] {
+  --primary-color: #f2f5f7;
+  --secondary-color: #ebedee;
+  --text-color: #000000;
+  --accent-color: #DF6F30;
+}
+
+:root, [data-theme="dark"] {
+  --primary-color: #0D0A08;
+  --secondary-color: #141211;
+  --text-color: #ffffff;
+  --accent-color: #2090CF;
 }
